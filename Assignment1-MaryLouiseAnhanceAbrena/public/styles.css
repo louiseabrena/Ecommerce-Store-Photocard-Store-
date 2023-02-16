@@ -1,0 +1,141 @@
+body,
+html {
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  background-color: #f0f3f8;
+}
+
+/* HOME STYLES */
+#site-name a {
+  padding-left: 20px;
+  text-decoration: none;
+  color: black;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#main-nav a {
+  text-decoration: none;
+  color: black;
+}
+
+#main-nav li {
+  list-style: none;
+  display: inline-block;
+  padding-right: 50px;
+  padding-left: 100px;
+  padding-top: 15px;
+}
+
+#main-nav {
+  justify-content: right;
+}
+
+.header-content {
+  background-color: white;
+  justify-content: space-between;
+  display: flex;
+}
+.header {
+  padding: 100px;
+  color: black;
+  max-width: auto;
+  background: url("/image/cover.jpeg");
+}
+
+.photos {
+  border: solid 1px black;
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 5px 50px 5px;
+}
+
+.photos a {
+  display: flex;
+  justify-content: center;
+  color: black;
+}
+
+/* .shopnow {
+  border-radius: 10px;
+  padding: 10px;
+  border: solid black;
+  background-color: white;
+} */
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+#footer {
+  font-size: 10px;
+}
+
+/* SHOP STYLES */
+.shophead {
+  padding: 80px;
+  color: black;
+  max-width: auto;
+  background: url("/image/cover.jpeg");
+}
+.shop-title {
+  font-family: "Anton", sans-serif;
+  padding-bottom: 0;
+}
+
+.info {
+  padding-top: 0;
+}
+.shop {
+  border: solid 1px black;
+  margin: 5px 5px 50px 5px;
+}
+
+button {
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px;
+  margin-bottom: 30px;
+  border: solid black;
+  background-color: white;
+}
+.addtocart {
+  margin-right: 10px;
+}
+.txt {
+  display: inline-block;
+  padding: 50px;
+  justify-content: center;
+}
+
+/* CONTACT STYLES */
+.contact-title {
+  margin-top: 50px;
+  font-family: "Martel Sans", sans-serif;
+  font-weight: bold;
+  font-size: 38px;
+  text-align: center;
+}
+#name,
+#email {
+  font-weight: 400;
+  margin: 5px;
+  height: 30px;
+  width: 500px;
+}
+#concern {
+  font-weight: 400;
+  margin: 5px;
+  height: 130px;
+  width: 500px;
+}
+
+td {
+  margin: 70px;
+}

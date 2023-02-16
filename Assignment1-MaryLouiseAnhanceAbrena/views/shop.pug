@@ -1,0 +1,16 @@
+extends layout 
+
+block main-content
+    div.shophead
+        h1.shop-title Shop photocards
+        p.info You can stop wondering where to buy KPOP photocards and shop at POLKA's curated online selection of the hottest kpop photocards at budget friendly prices.
+    .shop
+        .txt
+            each product in collection
+                img(src=product.image, alt="blue hour", height="250")
+                p #{product.item}
+                p #{product.price}
+                    .buyPC
+                        a(href="/shop"): button(type="button") Add to Cart 
+                        a(href="/trade"): button(type="button") Start to Trade
+            a.more(href="/shop"): button(type="button") Load more

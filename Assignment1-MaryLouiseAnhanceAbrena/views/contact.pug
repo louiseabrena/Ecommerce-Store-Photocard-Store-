@@ -1,0 +1,18 @@
+extends layout 
+
+block main-content
+    .header-contact
+        h1.contact-title Thank you for contacting us!
+        p.info If you have any questions regarding how to buy or how to start trading, shoot us a message and we'll get back to you as soon as possible!
+    .contact-us-form 
+        form(method='get')
+            .nameInput
+                label(for='name') Name:
+                input#name(type='text' name='name')
+            .emailInput
+                label(for='email') Email:
+                input#email(type='email' name='email')
+            .concernInput
+                label(for='concern') Comment: 
+                textarea#concern(name='concern')
+        a.shopnow(href="/"): button(type='submit') Submit
